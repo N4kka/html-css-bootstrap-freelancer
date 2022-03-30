@@ -144,8 +144,9 @@ header {
     padding: 1em;
 }
 
-.col-4 img {
-    width: 100%;
+.row img {
+    padding: 10px;
+    border-radius: 25px;
 }
 
 /* ABOUT */
@@ -221,6 +222,15 @@ footer {
     text-align: center;
 }
 
+.top-footer, .row
+.col-12 {
+    padding: 5px;
+}
+
+.footer-title {
+    margin-top: 2em;
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -246,10 +256,6 @@ footer {
 
 .green-text {
     color: #1abc9c ;
-}
-
-.right_col {
-    width: 80%;
 }
 
 .bottom-footer {
@@ -280,8 +286,56 @@ footer {
         width: 40px;
         margin-left: 2em;
     }
+
+    .footer-description {
+        display: inline-block;
+    }
 }
 
-@media all and (min-width: 577px) {
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .jumbotron-img img {
+        width: 20%;
+    }
 
+    .jumbotron-start h2 {
+        font-size: 2rem;
+    }
+
+    .row img {
+        padding: 10px;
+    }
+
+    .about-description>p {
+        font-size: 17px;
+    }
+
+    .download-btn button {
+        font-size: 12px;
+    }
+
+    .title h2 {
+        padding-top: 1em;
+        font-size: 3em;
+    }
+
+    .ms_form {
+        width: 60%;
+        padding: 10px;
+    }
+
+    .footer-description {
+        display: inline;
+    }
+
+    .resizing {
+        font-size: 12px;
+    }
+
+    .bottom-footer {
+        margin: 0;
+    }
+    
+    .bottom-footer h6 {
+        font-size: 12px;
+    }
 }
