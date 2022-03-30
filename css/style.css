@@ -36,20 +36,19 @@ header {
     background-color: #2c3e50;
 }
 
-.col-6>h3 {
+.col-10>h3 {
     font-size: 1.4em;
     font-weight: 700;
     line-height: 50px;
-    text-align: center;
 }
 
-.col-6>i {
+.col-2>i {
     display: none;
     color: gray;
     padding: 5px 10px;
     border: 1px solid lightgray;
     margin-top: 1em;
-    text-align: end;
+    text-align: center;
 }
 
 .header-contacts {
@@ -268,13 +267,21 @@ footer {
 
 /* MEDIA QUERIES */
 @media all and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .header-contacts {
         display: none;
     }
     
-    .col-6>i {
+    .col-2>i {
         display: block;
         width: 40px;
-        margin-left: 14em;
+        margin-left: 2em;
     }
+}
+
+@media all and (min-width: 577px) {
+
 }
