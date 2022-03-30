@@ -339,3 +339,58 @@ footer {
         font-size: 12px;
     }
 }
+
+@media all and (min-width: 769px) {
+    .jumbotron-img img {
+        width: 20%;
+    }
+
+    .star span {
+        margin: 20px;
+    }
+
+    .portfolio h2 {
+        font-size: 3rem;
+    }
+
+    .title h2 {
+        padding-top: 1em;
+        font-size: 3em;
+    }
+
+    .about-description>p {
+        font-size: 17px;
+    }
+
+    .download-btn button {
+        font-size: 14px;
+    }
+
+    .ms_form {
+        padding: 5px;
+    }
+
+    .send-btn input {
+        margin: 5em 17em 2em;
+    }
+
+    .footer-title {
+        font-weight: 300;
+    }
+
+    .footer-description {
+        margin-bottom: 0;
+    }
+
+    .resizing {
+        font-size: 14px;
+    }
+
+    .bottom-footer {
+        margin: 0;
+    }
+    
+    .bottom-footer h6 {
+        font-size: 12px;
+    }
+}
